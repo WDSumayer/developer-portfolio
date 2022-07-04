@@ -9,6 +9,7 @@ body {
     padding: 10px 40px;
     background-image: linear-gradient(#FFC81D, #FF9F33);
     border-radius: 5px;
+
 }
 
 section {
@@ -51,9 +52,6 @@ section {
     text-align: justify;
     margin-bottom: 30px;
 }
-
-
-.hero-right {}
 
 .hero-right img {
     width: 85%;
