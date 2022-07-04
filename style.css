@@ -29,7 +29,7 @@ section {
 }
 
 .hero-left {
-    padding: 10px 100px;
+    padding: 10px 60px 10px 100px;
 }
 
 .hero-left h1 {
@@ -38,7 +38,7 @@ section {
 }
 
 .hero-left span.color-orange {
-    color: #FB6756;
+    color: #007df1;
 }
 
 .hero-left h3 {}
@@ -74,13 +74,19 @@ section {
 }
 
 .dream-left img {
-    width: 79%;
+    width: 84%;
 }
 
 .dream-right {}
 
 .dream-right h1 {
-    font-size: 40px;
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.dream-right h2 {
+    font-size: 21px;
+    font-weight: 500;
 }
 
 .dream-right p {
@@ -91,4 +97,60 @@ section {
     margin-bottom: 40px;
     padding-right: 105px;
 
+}
+
+.experience-area {
+    background-image: url(img/exp-bg.png);
+    background-position-x: left;
+    background-position-y: 14em;
+    background-repeat: no-repeat;
+}
+
+.experience-area h1 {
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.ex-item-1 {
+    box-shadow: 10px 10px 58px -17px #878787;
+    margin: 0 30px 20px 70px;
+    padding: 30px;
+    border-left: 7px solid #FB6656;
+    border-radius: 3px;
+
+}
+
+.ex-item-1 h2,
+.ex-item-2 h2 {
+    font-size: 40px;
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+.ex-item-1 h3,
+.ex-item-2 h3 {
+    color: #FFAB2C;
+}
+
+.ex-item-1 p,
+.ex-item-2 p {
+    font-size: 18px;
+    color: #7e7e7e;
+}
+
+.ex-item-2 {
+    box-shadow: 10px 10px 58px -17px #878787;
+    margin: 0 70px 20px 30px;
+    padding: 30px;
+    border-left: 7px solid #007DF1;
+    border-radius: 3px;
+}
+
+footer {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #69698B;
+    padding: 20px;
 }
